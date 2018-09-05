@@ -1,0 +1,55 @@
+$Goldy : #BB9E41;
+
+.navbar {
+    background-color: black;
+    font-family: open sans-serif ;
+    color: $Goldy;
+    width: 100%;
+    // @include over;
+}
+
+.navbar-brand{
+    .img-responsive{
+        width: 50%;
+    }
+}
+@media (max-width: 460px){
+    .navbar-brand{
+        .img-responsive{
+            width: 70%;
+        }
+    }    
+
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg{ 
+    .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 4.75rem;
+        }
+    }    
+}
+
+.navbar-expand-lg{ 
+    .navbar-collapse {
+        .dropdown-menu.show{
+            background: black;
+        }
+        .dropdown-item{
+            color: $Goldy;
+        }
+    }
+}    
+
+.navbar-dark {
+    .navbar-nav{
+     .nav-link {
+    color:  $Goldy;
+    }
+}
+}
+

@@ -1,0 +1,106 @@
+.border {
+	display: block;
+	width: 80px;
+	height: 2px;
+	background: black;
+	margin: 0rem auto 3rem auto;
+	border: black;
+	box-sizing: unset;
+
+}
+
+.aboutus {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	text-align: center;
+	padding: 2.5rem 10rem;
+
+	img{
+		margin: 2rem auto;
+	}
+}
+
+@media(max-width:900px){
+	.aboutus{
+		padding: 1.5rem;
+	}
+}
+
+// .card-deck {
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: space-between;
+// }
+
+// .card-deck {
+// 	@include media-breakpoint-only(sm) {
+// 	  deck-count: 1;
+// 	}
+// 	@include media-breakpoint-only(md) {
+// 	  deck-count: 2;
+// 	}
+// 	@include media-breakpoint-only(lg) {
+// 	  deck-count: 4;
+// 	}
+	
+//   }
+
+// .deck {
+// 	display: flex;
+// 	flex-direction: row;
+// 	justify-content: space-between;
+// 	margin-top: 1.5rem;
+// }
+
+// @media(max-width: 982px) {
+// 	.deck {
+// 		display: flex;
+// 		flex-direction: column;
+// 	}
+	
+// }
+
+@media(max-width: 982px) {
+	.card-deck{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+	.card {
+		margin: 1.5rem 3rem;
+	}
+
+	}
+}
+	
+
+#characters {
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/violin.jpg"), center, no-repeat;
+	width: 100%;
+}
+
+.header-charac {
+	color: whitesmoke;
+}
+
+#Pag {
+	margin-top: 1rem;
+	padding: 1rem;
+}
+
+footer{
+	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/footer.jpg"), no-repeat;;
+	height: 200px;
+	text-align: center;
+	color: azure;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;	
+}
+
+.copyright {
+	margin-top: 1rem;
+}

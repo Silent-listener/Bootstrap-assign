@@ -1,0 +1,18 @@
+.jumbotron{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/Hero.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    border-radius: 0;
+    margin-bottom : 0;
+}
+
+.container-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 7.5rem;
+}
+

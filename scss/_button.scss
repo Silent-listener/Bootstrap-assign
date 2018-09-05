@@ -1,0 +1,11 @@
+.jumbotron{
+    .btn-primary {
+	border-color: white;
+	background: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+    border-color: azure;
+}
+}
