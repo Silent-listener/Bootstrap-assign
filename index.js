@@ -13,6 +13,7 @@ import './images/moriarty.jpg';
 import './images/mycroft.jpg';
 import './images/retro.jpg';
 import './images/sherlock-wallpaper-14.jpg';
+import './images/sherlock-wallpaper-6.jpg';
 import './images/sherlogo.png';
 import './images/violin.jpg';
 import './images/watson.jpg';
