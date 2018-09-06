@@ -1,3 +1,11 @@
 @mixin over{
     overflow: hidden;
 }
+
+@mixin padb{
+    padding-bottom: 1rem;
+}
+
+@mixin pad0{
+    padding: 0;
+}
